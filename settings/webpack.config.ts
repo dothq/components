@@ -72,7 +72,7 @@ const config = {
             },
           },
           {
-            test: /\.(png|jpg|gif|svg)$/,
+            test: /\.(png|jpg|gif|svg|ico)$/,
             loader: 'url-loader',
             options: {
               name: '[name].[ext]',
