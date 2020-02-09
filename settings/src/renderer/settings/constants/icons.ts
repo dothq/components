@@ -4,6 +4,7 @@ import * as downloads from '../../../shared/icons/download.svg'
 import * as languages from '../../../shared/icons/translate.svg'
 import * as info from '../../../shared/icons/info.svg'
 import * as feedback from '../../../shared/icons/feedback.svg'
+import * as menu from '../../../shared/icons/menu.svg'
 
 import * as favicon from '../../../shared/icons/settings.ico'
 import * as defaultAvatar from '../../../shared/icons/default.svg'
@@ -16,7 +17,8 @@ export const icons = {
     info: info.default,
     feedback: feedback.default,
     defaultAvatar: defaultAvatar.default,
-    favicon: favicon.default
+    favicon: favicon.default,
+    menu: menu.default
 }
 
 console.log(icons)
