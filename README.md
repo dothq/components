@@ -6,3 +6,4 @@
 
 ### 🗄 Modules
  * 🛡 [Adblocker](https://github.com/dot-browser/components/tree/master/adblocker) - Adblock module used in Dot Browser to stop trackers & advertisments.
+ * 🛠 [Settings](https://github.com/dot-browser/components/tree/master/settings) - Settings page used in Dot Browser
