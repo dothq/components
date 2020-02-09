@@ -8,9 +8,11 @@ export const StyledSidebarItem = styled.div`
     width: calc(400px - 32px);
     padding-left: 32px;
     margin-bottom: 4px;
+    border-radius: 0 50px 50px 0;
+    background-color: #fafafa;
 
     &:hover {
-        background-color: rgba(0, 0, 0, 0.03);
+        background-color: rgb(236, 236, 236);
     }
 
     ${({ visible, isBottom }: { visible?: boolean; isBottom?: boolean }) => css`
