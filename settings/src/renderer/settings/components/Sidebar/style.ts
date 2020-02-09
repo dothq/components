@@ -6,10 +6,29 @@ export const StyledSidebar = styled.div`
     background-color: #fafafa;
     position: absolute;
     overflow: hidden;
+    transition: 0.2s width, 0.2s box-shadow, 0.2s opacity;
 
     * {
         user-select: none;
     }
+
+    @media only screen and (max-width: 1600px) {
+        opacity: 0;
+        pointer-events: none;
+        width: 0px;
+    }
+
+    ${({ isToggled }: { isToggled?: boolean }) => css`
+        ${isToggled ? `
+            opacity: 1 !important;
+            pointer-events: all !important;
+            width: 400px !important;
+            position: fixed !important;
+            box-shadow: 0px 9999vh 0px 9999vh #00000040 !important;
+        ` : ''}
+    `} 
+
+
 `;
 
 export const Indicator = styled.div`
@@ -21,6 +40,7 @@ export const Indicator = styled.div`
     transition: 0.3s margin-top;
     transition-timing-function: cubic-bezier(0.42, 0, 0.46, 1.07);
     will-change: margin-top;
+    z-index: 1;
 
     ${({ position }: { position: number }) => css`
         margin-top: ${position}px;
