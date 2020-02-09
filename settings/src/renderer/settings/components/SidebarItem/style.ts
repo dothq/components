@@ -13,9 +13,11 @@ export const StyledSidebarItem = styled.div`
         background-color: rgba(0, 0, 0, 0.03);
     }
 
-    ${({ visible }: { visible?: boolean }) => css`
+    ${({ visible, isBottom }: { visible?: boolean; isBottom?: boolean }) => css`
         opacity: ${visible ? 1 : 0};
         pointer-events: ${visible ? 'all' : 'none'};
+        position: ${isBottom ? 'fixed' : ''};
+        bottom: ${isBottom ? '0px' : ''};
     `} 
 `;
 
