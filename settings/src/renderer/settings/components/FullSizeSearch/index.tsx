@@ -32,7 +32,7 @@ const onFSSearchChange = (event) => {
     }
 
     window.history.replaceState(null, null, `${stripped}?q=${event.target.value}`);
-    store.fssValue = event.target.value
+    store.fssValue = event.target.value;
 }
 
 export const FSSearch = observer(({ isSearchToggled }: Props) => (
