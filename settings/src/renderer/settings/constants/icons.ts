@@ -20,5 +20,3 @@ export const icons = {
     favicon: favicon.default,
     menu: menu.default
 }
-
-console.log(icons)

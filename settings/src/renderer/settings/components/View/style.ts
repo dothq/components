@@ -36,3 +36,7 @@ export const ViewDisplay = styled.div`
     margin-right: auto;
     padding: 50px 0;
 `;
+
+export const Spacer = styled.div`
+    height: 28px;
+`;

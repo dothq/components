@@ -23,7 +23,7 @@ export const SidebarItem = observer(({ icon, text, selected, visible, isUser, bo
     
     return (
         <StyledSidebarItem visible={visible} onClick={() => onClick(id)} id={id} data-name={text} isBottom={bottom}>
-            <Icon icon={icon} style={{ borderRadius: isUser ? '50px' : '0', opacity: isUser ? 1 : 0.8 }} />
+            <Icon icon={icon} style={{ borderRadius: isUser ? '50px' : '0', opacity: isUser ? 1 : 0.8, border: isUser ? '1px solid rgba(50, 50, 50, 0.5)' : '' }} />
             <Name>{text}</Name>
         </StyledSidebarItem>
     )
