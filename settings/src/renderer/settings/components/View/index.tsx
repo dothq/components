@@ -6,12 +6,14 @@ import { Card } from '../Card';
 import { items } from '../../constants/items';
 import { categories } from '../../constants/categories';
 import { ID } from '../Categories/id';
+import { Appearance } from '../Categories/appearance';
 
 export const View = observer(() => (
     <StyledView isMenuToggled={store.isToggled}>
-        <ViewContainer>
-            <ViewDisplay>
+        <ViewContainer id="mount-view-scroller">
+            <ViewDisplay id="mount-view">
                 <ID />
+                <Appearance />
             </ViewDisplay>
         </ViewContainer>
     </StyledView>

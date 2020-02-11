@@ -2,6 +2,7 @@ import * as React from 'react';
 import { categories } from './categories';
 import { icons } from './icons';
 import { CardProfile } from '../components/Card.Profile';
+import { UITheme } from '../components/Card.UITheme';
 
 export const items: Items = {
     id: [
@@ -26,6 +27,14 @@ export const items: Items = {
             name: "Avatar and name settings",
             id: "id.profile.general.settings",
             icon: icons.info
+        }
+    ],
+    appearance: [
+        {
+            type: "custom",
+            name: "Interface Theme",
+            id: "appearance.ui.theme",
+            component: UITheme
         }
     ]
 }

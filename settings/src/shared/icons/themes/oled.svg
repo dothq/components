@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="160" viewBox="0 0 300 160">
+  <defs>
+    <clipPath id="clip-Web_1920_4">
+      <rect width="300" height="160"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_4" data-name="Web 1920 – 4" clip-path="url(#clip-Web_1920_4)">
+    <rect width="300" height="160" fill="#fff"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="300" height="160" rx="3"/>
+    <g id="IT_Dark" data-name="IT Dark" transform="translate(-711 -479)">
+      <path id="Rectangle_16" data-name="Rectangle 16" d="M3,0H297a3,3,0,0,1,3,3V31a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" transform="translate(711 479)"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="4" cy="4" r="4" transform="translate(724 490)" fill="#ff5f57"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="4" cy="4" r="4" transform="translate(750 490)" fill="#29ca41"/>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="4" cy="4" r="4" transform="translate(737 490)" fill="#ffbd2d"/>
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="123" height="23" rx="3" transform="translate(844 482)" fill="#2da0ff"/>
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="4" cy="4" r="4" transform="translate(954 490)" fill="#9ed3ff"/>
+      <circle id="Ellipse_13" data-name="Ellipse 13" cx="7" cy="7" r="7" transform="translate(976 488)" fill="#fff"/>
+      <path id="Icon_material-refresh" data-name="Icon material-refresh" d="M13.7,7.324a4.509,4.509,0,1,0,1.172,4.311H13.7a3.379,3.379,0,1,1-3.184-4.508,3.333,3.333,0,0,1,2.378,1L11.081,9.944h3.944V6Z" transform="translate(812.801 483.894)" fill="#fff"/>
+      <path id="Icon_material-chevron-right" data-name="Icon material-chevron-right" d="M13.679,9l-.794.794,2.581,2.586-2.581,2.586.794.794,3.381-3.381Z" transform="translate(785.392 482.021)" fill="#fff"/>
+      <path id="Icon_material-chevron-left" data-name="Icon material-chevron-left" d="M16.175,9.794,15.381,9,12,12.381l3.381,3.381.794-.794-2.581-2.586Z" transform="translate(765.865 482.021)" fill="#fff"/>
+      <line id="Line_1" data-name="Line 1" x2="300" transform="translate(711 510.2)" fill="none" stroke="#474747" stroke-width="0.3"/>
+      <path id="Polygon_1" data-name="Polygon 1" d="M8.5,0,17,17H0Z" transform="translate(829 544)" fill="#fff"/>
+      <circle id="Ellipse_14" data-name="Ellipse 14" cx="8.5" cy="8.5" r="8.5" transform="translate(852 544)" fill="#fff"/>
+      <rect id="Rectangle_18" data-name="Rectangle 18" width="17" height="17" transform="translate(876 544)" fill="#fff"/>
+      <rect id="Rectangle_19" data-name="Rectangle 19" width="180" height="17" rx="8.5" transform="translate(771 578)" fill="#fff"/>
+      <rect id="Rectangle_20" data-name="Rectangle 20" width="18" height="17" rx="8.5" transform="translate(933 578)" fill="#006fff" opacity="0.76"/>
+      <path id="Icon_material-search" data-name="Icon material-search" d="M8.754,8.244H8.486l-.1-.092a2.216,2.216,0,1,0-.238.238l.092.1v.269l1.7,1.7.507-.507Zm-2.042,0A1.532,1.532,0,1,1,8.244,6.712,1.53,1.53,0,0,1,6.712,8.244Z" transform="translate(935 578.782)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

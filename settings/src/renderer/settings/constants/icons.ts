@@ -9,6 +9,10 @@ import * as sync from '../../../shared/icons/sync.svg'
 import * as syncDisabled from '../../../shared/icons/syncDisabled.svg'
 import * as close from '../../../shared/icons/close.svg'
 
+import * as light from '../../../shared/icons/themes/light.svg'
+import * as dark from '../../../shared/icons/themes/dark.svg'
+import * as oled from '../../../shared/icons/themes/oled.svg'
+
 import * as favicon from '../../../shared/icons/settings.ico'
 import * as defaultAvatar from '../../../shared/icons/default.svg'
 
@@ -24,5 +28,10 @@ export const icons = {
     menu: menu.default,
     sync: sync.default,
     syncDisabled: syncDisabled.default,
-    close: close.default
+    close: close.default,
+    themes: {
+        light: light.default,
+        dark: dark.default,
+        oled: oled.default
+    }
 }

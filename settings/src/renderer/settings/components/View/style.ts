@@ -28,15 +28,26 @@ export const ViewContainer = styled.div`
     overflow-y: scroll;
     display: block;
     height: calc(100vh - 72px);
+    scroll-behavior: smooth;
 `;
 
 export const ViewDisplay = styled.div`
     max-width: 878px;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px 0;
+    padding: 50px 0 50px 0;
 `;
 
 export const Spacer = styled.div`
     height: 28px;
+`;
+
+export const SectionTitle = styled.div`
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 300;
+    color: #404040;
+    padding: 28px 0;
+
+    transition: 0.4s font-weight, 0.4s color;
 `;
