@@ -34,8 +34,8 @@ export const InformationsContainer = styled.div`
 export const Sync = styled.div`
     background-repeat: no-repeat;
 
-    width: 18px;
-    height: 18px;
+    width: 19px;
+    height: 19px;
     display: inline-block;
     border-radius: 50px;
 

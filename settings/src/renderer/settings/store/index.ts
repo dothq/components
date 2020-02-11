@@ -27,8 +27,15 @@ class Store {
     @observable
     public fssValue: string = '';
 
+    @observable
+    public sections: { id: string, scrollPos: number, element: HTMLElement }[] = [];
+
     public constructor() {
+        const performanceStart = Date.now();
+
         window.addEventListener('resize', () => {
+            calculateSectionPositions()
+
             if(window.innerWidth >= 1601) {
                 this.isToggled = false;
                 this.isSearchToggled = false;
@@ -40,10 +47,34 @@ class Store {
         })
 
         window.addEventListener('keydown', (e) => {
+            calculateSectionPositions()
+
             if(e.keyCode == 27) {
                 this.isToggled = false;
             }
         })
+
+        window.addEventListener('DOMContentLoaded', () => {
+            calculateSectionPositions()
+            console.log(`Loaded settings in ${Date.now() - performanceStart}ms`)
+        })
+
+        const calculateSectionPositions = () => {
+            this.sections = []
+
+            document.getElementById("mount-view").childNodes.forEach((node: HTMLElement) => {
+                let scrollPos = node.getBoundingClientRect().top+150
+
+                if(node.id.split("mount-")[1] == "id") scrollPos = node.getBoundingClientRect().top-125
+
+                return this.sections.push({
+                    id: node.id.split("mount-")[1],
+                    scrollPos: Math.round(scrollPos),
+                    element: node
+                })
+            });
+
+        }
     }
 
     @observable

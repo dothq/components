@@ -1,8 +1,9 @@
 import React from 'react';
 import { observer } from "mobx-react";
-import { Spacer } from "../View/style";
+import { Spacer, SectionTitle } from "../View/style";
 import { items } from "../../constants/items";
 import { Card } from "../Card";
+import store from '../../store';
 
 export const ID = observer(() => (
     <div id={`mount-id`}>
