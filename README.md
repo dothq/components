@@ -1,3 +1,5 @@
+### We've moved to [dothq/plugins](https://github.com/dothq/plugins)
+
 ## 📦 Components
 
 > A repository of components and modules Dot Browser uses
